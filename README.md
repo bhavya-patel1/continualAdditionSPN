@@ -1,3 +1,4 @@
+[![Python version](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 # Continual Addition for Sum-Product Networks
 All required dependencies are listed in requirements.txt. The Einet repository should be installed separately.
 `pip install git+https://github.com/braun-steven/simple-einet`
