@@ -1,0 +1,31 @@
+experiment:
+  name: "continual_spn_benchmark"
+  save_dir: "results/"
+
+dataset:
+  name: "child"
+  n_samples: 10000
+
+benchmark:
+  # seeds: [42]
+  seeds: [42, 65, 33, 82, 99]
+  
+algorithm:
+  min_instances: 25
+  g_test_threshold: 0.05
+
+
+synthetic:
+  use_synthetic: false
+  bn_seed: 123
+  num_nodes: 20
+  edge_prob: 0.2
+  max_states: 3
+
+sequential:
+  insertion_order: null
+
+einet:
+  epochs: 100
+  lr: 0.01
+  batch_size: 256
